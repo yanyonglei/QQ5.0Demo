@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.yong.swipedelete.SwipeLayout
+        android:id="@+id/swipeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <!--内容-->
+        <include layout="@layout/layout_content"/>
+        <!--删除部分-->
+        <include layout="@layout/layout_delete"/>
+    </com.yong.swipedelete.SwipeLayout>
+</LinearLayout>

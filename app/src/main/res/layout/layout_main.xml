@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.yanyl.qq5demo.view.MyLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/my_layout"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#18B4ED" >
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_marginLeft="15dp"
+            android:id="@+id/iv_head"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:background="@drawable/head" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/main_listview"
+
+            />
+        <com.yanyl.qq5demo.view.QuickIndexBar
+            android:layout_alignParentRight="true"
+            android:id="@+id/quickIndex"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:background="#3c3c3c"
+            />
+        <TextView
+            android:id="@+id/letter"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:background="@drawable/bg_oval"
+            android:textColor="#fff"
+            android:textSize="50sp"
+            android:textStyle="bold"
+            android:text="S"
+            android:gravity="center"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            />
+    </RelativeLayout>
+</com.yanyl.qq5demo.view.MyLinearLayout>
